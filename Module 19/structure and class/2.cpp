@@ -14,6 +14,7 @@ private:
     float EmployeeSalary;
 
 public:
+    
     // Constructor
     Student() {}
 
@@ -65,7 +66,7 @@ int main()
 
     Student S1;
 
-    S1.SetEmployeeInfo("ABC", "disdsd", 2023, 21000);
+    S1.SetEmployeeInfo("Alpha", "ABC", 2023, 21000);
     S1.DisplayInfo();
     int f = SetBonus(20000, 2019);
     cout << f << endl;

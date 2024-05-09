@@ -1,33 +1,37 @@
 #include <bits/stdc++.h>
 using namespace std;
-class Student
+class laptop
 {
 public:
    char name[100];
-   int roll;
-   int cls;
+   char osname[100];
+   int ram;
+   int ssd;
    char section;
 };
 int main()
 {
 
-   Student rahim;
-   rahim.roll = 29;
-   rahim.cls = 9;
-   rahim.section = 'A';
-   char nm[100] = "Rahim";
-   strcpy(rahim.name, nm);
+   laptop hp;
+   char nm[100]="Hp";
+   strcpy(hp.name, nm);
+   char ny[100]="Windows";
+   strcpy(hp.osname, ny);
+   hp.ram=8;
+   hp.ssd=128;
 
-   Student karim;
-   karim.roll = 55;
-   karim.cls = 9;
-   karim.section = 'C';
-   char nm2[100] = "Karim";
-   strcpy(karim.name, nm2);
 
-   cout << rahim.roll << " " << rahim.section << endl;
+   laptop asus;
+   char nt[100]="Asus";
+   strcpy(asus.name, nt);
+   char nb[100]="Windows";
+   strcpy(asus.osname, nb);
+   asus.ram=8;
+   asus.ssd=256;
 
-   cout << karim.roll << " " << karim.name << endl;
+   cout << hp.ram << " " << asus.ram << endl;
+    cout<< hp.name<<" "<<asus.name  <<endl;
+   
 
    return 0;
 }
