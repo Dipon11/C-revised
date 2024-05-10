@@ -15,8 +15,7 @@ int main()
    laptop hp;
    char nm[100] = "Hp";
    strcpy(hp.name, nm);
-   char ny[100] = "Windows";
-   strcpy(hp.osname, ny);
+   // char ny[100] = "Windows";
    hp.ram = 8;
    hp.ssd = 128;
 
