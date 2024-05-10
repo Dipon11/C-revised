@@ -48,7 +48,8 @@ int main()
    else if(n==3)
    {
     double len,bred,hei;
-    cin>>len>>bred>>hei;
+    cin>>len>>bred>>hei;4
+    
     double f = calculateArea(len,bred,hei);
      cout<< f  <<endl;
     

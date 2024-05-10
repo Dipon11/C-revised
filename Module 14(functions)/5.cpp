@@ -12,18 +12,14 @@ bool isPositive (int num)
    if(num>0){
      ok=true;
      return ok;
-
    }
     else
     ok=false;
-   return ok;
-
-    
+   return ok;   
 }
-
 int main(){
      
-     int num;
+     int num;       
      cin>>num;
      bool g=isPositive(num);
      

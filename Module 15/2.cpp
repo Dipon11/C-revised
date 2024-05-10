@@ -38,6 +38,8 @@ int main()
     string fname[8] = {"Rose", "Sunflower", "Tulip", "Daisy", "Waterlily", "Lily", "joba", "Orchid"};
 
     StringSearch(flower, fname);
-
+    int vm[100]={1,2,3};
+     cout<<  <<endl;
+    
     return 0;
 }
