@@ -26,10 +26,11 @@ int main()
     }
 
     int add[2][2];
-    
+
     for (int i = 0; i < ROWS; i++)
     {
         for (int j = 0; j < COLS; j++)
+
         {
             add[i][j] = arr[i][j] + brr[i][j];
         }
@@ -41,6 +42,7 @@ int main()
             cout << add[i][j] <<" " ;
         }
          cout<<endl;
+        //  commit
         
     }
 
