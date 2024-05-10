@@ -39,11 +39,9 @@ int main()
     {
         for (int j = 0; j < COLS; j++)
         {
-            cout << add[i][j] <<" " ;
+            cout << add[i][j] << " ";
         }
-         cout<<endl;
-        //  commit
-        
+        cout << endl;
     }
 
     return 0;
